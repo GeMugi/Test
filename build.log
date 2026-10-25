@@ -1,0 +1,472 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+Calculating task graph as no cached configuration is available for tasks: :ilha:assembleRelease
+Type-safe project accessors is an incubating feature.
+> Task :build-logic:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :build-logic:generateExternalPluginSpecBuilders FROM-CACHE
+> Task :build-logic:extractPrecompiledScriptPluginPlugins FROM-CACHE
+> Task :build-logic:compilePluginsBlocks FROM-CACHE
+> Task :build-logic:generatePrecompiledScriptPluginAccessors FROM-CACHE
+> Task :build-logic:generateScriptPluginAdapters FROM-CACHE
+> Task :build-logic:compileKotlin FROM-CACHE
+> Task :build-logic:compileJava NO-SOURCE
+> Task :build-logic:pluginDescriptors
+> Task :build-logic:processResources
+> Task :build-logic:classes
+> Task :build-logic:jar
+
+> Configure project :baselineprofile
+WARNING: The option setting 'android.r8.maxWorkers=4' is experimental.
+The current default is '1'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Configure project :ilha
+w: file:///home/runner/work/Test/Test/miuix/ilha/build.gradle.kts:54:21: 'val files: SetProperty<File>' is deprecated. Use keepRules source folder instead.
+
+> Task :miuix-blur:androidPreBuild UP-TO-DATE
+> Task :miuix-icons:androidPreBuild UP-TO-DATE
+> Task :miuix-core:androidPreBuild UP-TO-DATE
+> Task :ilha:preBuild UP-TO-DATE
+> Task :miuix-core:preAndroidMainBuild UP-TO-DATE
+> Task :ilha:preReleaseBuild UP-TO-DATE
+> Task :miuix-blur:preAndroidMainBuild UP-TO-DATE
+> Task :miuix-icons:preAndroidMainBuild UP-TO-DATE
+> Task :miuix-core:mergeAndroidMainJniLibFolders
+> Task :ilha:mergeReleaseJniLibFolders
+> Task :miuix-preference:androidPreBuild UP-TO-DATE
+> Task :miuix-preference:preAndroidMainBuild UP-TO-DATE
+> Task :miuix-icons:mergeAndroidMainJniLibFolders
+> Task :miuix-blur:mergeAndroidMainJniLibFolders
+> Task :miuix-core:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-icons:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-blur:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-preference:mergeAndroidMainJniLibFolders
+> Task :miuix-preference:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-core:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-shader:androidPreBuild UP-TO-DATE
+> Task :miuix-shader:preAndroidMainBuild UP-TO-DATE
+> Task :miuix-icons:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-squircle:androidPreBuild UP-TO-DATE
+> Task :miuix-preference:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-ui:androidPreBuild UP-TO-DATE
+> Task :miuix-ui:preAndroidMainBuild UP-TO-DATE
+> Task :miuix-blur:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-squircle:preAndroidMainBuild UP-TO-DATE
+> Task :miuix-core:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-core:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-shader:mergeAndroidMainJniLibFolders
+> Task :miuix-core:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-ui:mergeAndroidMainJniLibFolders
+> Task :miuix-shader:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-core:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-core:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-ui:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-squircle:mergeAndroidMainJniLibFolders
+> Task :miuix-core:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-core:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-squircle:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :miuix-shader:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-core:generateComposeResClass SKIPPED
+> Task :miuix-core:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :miuix-core:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-core:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-preference:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-core:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-preference:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-ui:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-preference:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-squircle:copyAndroidMainJniLibsProjectOnly
+> Task :miuix-preference:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-preference:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-preference:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-preference:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-preference:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-preference:generateComposeResClass SKIPPED
+> Task :miuix-preference:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :miuix-preference:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-preference:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-preference:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-shader:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-shader:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-shader:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-shader:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-shader:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-shader:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-shader:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-shader:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-shader:generateComposeResClass SKIPPED
+> Task :miuix-shader:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :miuix-shader:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-shader:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-shader:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-squircle:bakeSquircleSdf
+> Task :miuix-squircle:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-squircle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-squircle:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-squircle:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-squircle:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-squircle:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-squircle:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-squircle:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-squircle:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-squircle:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-squircle:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-squircle:generateComposeResClass SKIPPED
+> Task :miuix-squircle:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :miuix-ui:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-ui:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-ui:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-ui:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-ui:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-ui:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-ui:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-ui:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-ui:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-ui:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-ui:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-ui:generateComposeResClass SKIPPED
+> Task :miuix-ui:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :miuix-blur:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-blur:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-blur:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-blur:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-blur:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-blur:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-blur:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-blur:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-blur:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-blur:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-blur:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-blur:generateComposeResClass SKIPPED
+> Task :miuix-blur:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :miuix-icons:kmpPartiallyResolvedDependenciesChecker
+> Task :miuix-icons:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :miuix-icons:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-icons:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :miuix-icons:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :miuix-icons:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :miuix-icons:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-icons:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :miuix-icons:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :miuix-icons:generateResourceAccessorsForCommonMain SKIPPED
+> Task :miuix-icons:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :miuix-icons:generateComposeResClass SKIPPED
+> Task :miuix-icons:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :ilha:mergeReleaseNativeLibs
+> Task :ilha:stripReleaseDebugSymbols NO-SOURCE
+> Task :ilha:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :ilha:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :ilha:checkReleaseDuplicateClasses
+> Task :miuix-blur:generateAndroidMainEmptyResourceFiles
+> Task :ilha:generateReleaseResources FROM-CACHE
+> Task :miuix-core:generateAndroidMainEmptyResourceFiles
+> Task :miuix-icons:generateAndroidMainEmptyResourceFiles
+> Task :miuix-preference:generateAndroidMainEmptyResourceFiles
+> Task :ilha:packageReleaseResources FROM-CACHE
+> Task :miuix-shader:generateAndroidMainEmptyResourceFiles
+> Task :miuix-ui:generateAndroidMainEmptyResourceFiles
+> Task :miuix-squircle:generateAndroidMainEmptyResourceFiles
+> Task :ilha:javaPreCompileRelease FROM-CACHE
+> Task :ilha:processReleaseNavigationResources FROM-CACHE
+> Task :miuix-blur:prepareAndroidMainArtProfile
+> Task :miuix-core:prepareAndroidMainArtProfile
+> Task :miuix-icons:prepareAndroidMainArtProfile
+> Task :miuix-preference:prepareAndroidMainArtProfile
+> Task :miuix-shader:prepareAndroidMainArtProfile
+> Task :miuix-squircle:prepareAndroidMainArtProfile
+> Task :miuix-ui:prepareAndroidMainArtProfile
+> Task :ilha:mergeReleaseArtProfile
+> Task :miuix-blur:writeAndroidMainAarMetadata
+> Task :miuix-core:writeAndroidMainAarMetadata
+> Task :miuix-icons:writeAndroidMainAarMetadata
+> Task :miuix-preference:writeAndroidMainAarMetadata
+> Task :miuix-shader:writeAndroidMainAarMetadata
+> Task :miuix-squircle:writeAndroidMainAarMetadata
+> Task :miuix-ui:writeAndroidMainAarMetadata
+> Task :miuix-core:compileAndroidMain FROM-CACHE
+> Task :miuix-shader:compileAndroidMain FROM-CACHE
+> Task :ilha:checkReleaseAarMetadata
+> Task :miuix-core:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-core:bundleAndroidMainClassesToCompileJar
+> Task :miuix-shader:bundleAndroidMainClassesToCompileJar
+> Task :miuix-core:exportAndroidMainConsumerProguardFiles
+> Task :ilha:parseReleaseLocalResources FROM-CACHE
+> Task :miuix-shader:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-shader:exportAndroidMainConsumerProguardFiles
+> Task :ilha:generateReleaseRFile FROM-CACHE
+> Task :miuix-squircle:compileAndroidMain FROM-CACHE
+> Task :miuix-squircle:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-squircle:bundleAndroidMainClassesToCompileJar
+> Task :miuix-squircle:exportAndroidMainConsumerProguardFiles
+> Task :ilha:mapReleaseSourceSetPaths
+> Task :ilha:compileReleaseNavigationResources FROM-CACHE
+> Task :miuix-blur:compileAndroidMain FROM-CACHE
+> Task :miuix-blur:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-blur:exportAndroidMainConsumerProguardFiles
+> Task :miuix-blur:bundleAndroidMainClassesToCompileJar
+> Task :ilha:createReleaseCompatibleScreenManifests
+> Task :ilha:extractDeepLinksRelease FROM-CACHE
+> Task :miuix-blur:processAndroidMainManifest FROM-CACHE
+> Task :miuix-core:processAndroidMainManifest FROM-CACHE
+> Task :miuix-icons:processAndroidMainManifest FROM-CACHE
+> Task :miuix-preference:processAndroidMainManifest FROM-CACHE
+> Task :miuix-shader:processAndroidMainManifest FROM-CACHE
+> Task :miuix-squircle:processAndroidMainManifest FROM-CACHE
+> Task :miuix-ui:processAndroidMainManifest FROM-CACHE
+> Task :ilha:mergeReleaseResources FROM-CACHE
+> Task :miuix-blur:bundleAndroidMainClassesToRuntimeJar
+> Task :miuix-core:bundleAndroidMainClassesToRuntimeJar
+> Task :miuix-shader:bundleAndroidMainClassesToRuntimeJar
+> Task :miuix-squircle:bundleAndroidMainClassesToRuntimeJar
+> Task :ilha:extractProguardFiles
+> Task :miuix-blur:processAndroidMainJavaRes
+> Task :miuix-core:processAndroidMainJavaRes
+> Task :miuix-icons:compileAndroidMain FROM-CACHE
+> Task :miuix-icons:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-icons:exportAndroidMainConsumerProguardFiles
+> Task :miuix-shader:processAndroidMainJavaRes
+> Task :miuix-icons:bundleAndroidMainClassesToRuntimeJar
+> Task :miuix-icons:bundleAndroidMainClassesToCompileJar
+> Task :miuix-ui:compileAndroidMain FROM-CACHE
+> Task :miuix-squircle:processAndroidMainJavaRes
+> Task :miuix-icons:processAndroidMainJavaRes
+> Task :miuix-ui:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-ui:exportAndroidMainConsumerProguardFiles
+> Task :miuix-ui:processAndroidMainJavaRes
+> Task :ilha:mergeReleaseStartupProfile
+> Task :ilha:generateReleaseAssets UP-TO-DATE
+> Task :miuix-ui:bundleAndroidMainClassesToRuntimeJar
+> Task :miuix-ui:bundleAndroidMainClassesToCompileJar
+> Task :ilha:validateSigningRelease
+> Task :ilha:writeReleaseAppMetadata
+> Task :ilha:processReleaseMainManifest
+> Task :ilha:writeReleaseSigningConfigVersions
+> Task :ilha:mergeReleaseAssets
+> Task :ilha:compressReleaseAssets FROM-CACHE
+> Task :miuix-preference:compileAndroidMain FROM-CACHE
+> Task :miuix-preference:mergeAndroidMainGeneratedProguardFiles
+> Task :miuix-preference:bundleAndroidMainClassesToRuntimeJar
+> Task :miuix-preference:bundleAndroidMainClassesToCompileJar
+> Task :miuix-preference:exportAndroidMainConsumerProguardFiles
+> Task :miuix-preference:processAndroidMainJavaRes
+> Task :ilha:processReleaseManifest
+> Task :ilha:processReleaseManifestForPackage
+> Task :ilha:processReleaseResources
+
+> Task :ilha:compileReleaseKotlin FAILED
+e: file:///home/runner/work/Test/Test/miuix/ilha/src/main/kotlin/com/ilha/headsup/miuix/IlhaScreen.kt:413:22 Argument type mismatch: actual type is 'String?', but 'String' was expected.
+e: file:///home/runner/work/Test/Test/miuix/ilha/src/main/kotlin/com/ilha/headsup/miuix/IlhaScreen.kt:423:22 Argument type mismatch: actual type is 'String?', but 'String' was expected.
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_3-1792950449033.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/Test/Test/miuix/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ilha:compileReleaseKotlin' (registered by plugin 'com.android.internal.application').
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.btapi.BuildToolsApiCompilationWork
+   > Kotlin compiler: ARGUMENT_TYPE_MISMATCH
+       Kotlin compiler error
+         Argument type mismatch: actual type is 'String?', but 'String' was expected.
+         Location: /home/runner/work/Test/Test/miuix/ilha/src/main/kotlin/com/ilha/headsup/miuix/IlhaScreen.kt:413
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':ilha:compileReleaseKotlin' (registered by plugin 'com.android.internal.application').
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.lambda$doExecute$1(DefaultTaskNodeExecutor.java:367)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.doExecute(DefaultTaskNodeExecutor.java:365)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeTrackingTaskIdentity(DefaultTaskNodeExecutor.java:332)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeFinalizingProperties(DefaultTaskNodeExecutor.java:318)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeSkippingWithNoActions(DefaultTaskNodeExecutor.java:289)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeSkippingOnlyIf(DefaultTaskNodeExecutor.java:272)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeCatchingFailures(DefaultTaskNodeExecutor.java:228)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeWithFallbackOperationId(DefaultTaskNodeExecutor.java:197)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.executeWithLifecycle(DefaultTaskNodeExecutor.java:171)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.access$000(DefaultTaskNodeExecutor.java:67)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor$1.run(DefaultTaskNodeExecutor.java:136)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.execute(DefaultTaskNodeExecutor.java:133)
+	at org.gradle.execution.plan.LocalTaskNode.execute(LocalTaskNode.java:229)
+	at org.gradle.execution.DefaultBuildWorkExecutor.lambda$executePlan$0(DefaultBuildWorkExecutor.java:153)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$execute$0(DefaultPlanExecutor.java:476)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:475)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:392)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:65)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.btapi.BuildToolsApiCompilationWork
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:273)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:132)
+	at org.gradle.internal.Factories$1.create(Factories.java:30)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$withoutLocksBlocking$0(DefaultWorkerLeaseService.java:406)
+	at org.gradle.internal.work.ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocksBlocking(DefaultWorkerLeaseService.java:401)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.blocking(DefaultWorkerLeaseService.java:261)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.blocking(DefaultWorkerLeaseService.java:243)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$1(DefaultAsyncWorkTracker.java:128)
+	at org.gradle.internal.Factories$1.create(Factories.java:30)
+	at org.gradle.internal.resources.AbstractResourceLockRegistry.whileDisallowingLockChanges(AbstractResourceLockRegistry.java:51)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.whileDisallowingProjectLockChanges(DefaultWorkerLeaseService.java:266)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:127)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:93)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:79)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:67)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:276)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:253)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:236)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:219)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:185)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeAndStoreInCache(BuildCacheStep.java:145)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$3(BuildCacheStep.java:104)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$1(BuildCacheStep.java:104)
+	at org.gradle.internal.Try$Success.map(Try.java:170)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithCache(BuildCacheStep.java:88)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$0(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Left.fold(Either.java:116)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:105)
+	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:90)
+	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:314)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskNodeExecutor.doExecute(DefaultTaskNodeExecutor.java:364)
+	... 25 more
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Argument type mismatch: actual type is 'String?', but 'String' was expected.
+	at org.jetbrains.kotlin.gradle.plugin.diagnostics.DefaultCompilerDiagnosticsProblemsReporter.reportCompilerMessage(CompilerDiagnosticsProblemsReporter.kt:63)
+	at org.jetbrains.kotlin.compilerRunner.btapi.ProblemsApiCompilerMessageRenderer.replayTo(ProblemsApiCompilerMessageRenderer.kt:88)
+	at org.jetbrains.kotlin.compilerRunner.btapi.BuildToolsApiCompilationWork.execute(BuildToolsApiCompilationWork.kt:251)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:68)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:64)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:61)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:103)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:61)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:58)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$1(DefaultWorkerExecutor.java:169)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:191)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$600(DefaultConditionalExecutionQueue.java:112)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:168)
+	at org.gradle.internal.Factories$1.create(Factories.java:30)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$runAndReleaseLocks$0(DefaultWorkerLeaseService.java:296)
+	at org.gradle.internal.work.ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAndReleaseLocks(DefaultWorkerLeaseService.java:294)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:290)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:282)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:138)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:163)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:125)
+	... 2 more
+
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 42s
+129 actionable tasks: 99 executed, 30 from cache
+Configuration cache entry stored.
